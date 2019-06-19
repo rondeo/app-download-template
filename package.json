@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "poi --prod",
-    "serve": "poi --serve",
-    "build:dev": "yarn build && hs dist/ -p 3000 -c-1 -o"
+    "serve": "poi --serve"
   },
   "devDependencies": {
     "dotenv": "^8.0.0",
