@@ -5,7 +5,7 @@ pages:
     - node_modules/
   script:
   - yarn
-  - NO_LOGIN=1 API_SERVER=https://deepexi.gitlab.io/app-download/ yarn build
+  - NO_LOGIN=1 API_SERVER=https://oupenguin.gitlab.io/app-download/ yarn build
   - mv dist public
   artifacts:
     paths:
