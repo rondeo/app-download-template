@@ -3,9 +3,8 @@ pages:
   script:
   - yarn
   - NO_LOGIN=1 API_SERVER=https://oupenguin.gitlab.io/app-download/ yarn build
-  - mv dist public
   artifacts:
     paths:
-    - public
+    - dist
   only:
   - master
