@@ -1,0 +1,14 @@
+image: node:10
+pages:
+  cache:
+    paths:
+    - node_modules/
+  script:
+  - yarn
+  - NO_LOGIN=1 API_SERVER=https://deepexi.gitlab.io/app-download/ yarn build
+  - mv dist public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
