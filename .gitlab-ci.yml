@@ -1,8 +1,5 @@
 image: node:10
 pages:
-  cache:
-    paths:
-    - node_modules/
   script:
   - yarn
   - NO_LOGIN=1 API_SERVER=https://oupenguin.gitlab.io/app-download/ yarn build
