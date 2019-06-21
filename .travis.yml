@@ -10,6 +10,8 @@ install:
 - yarn --frozen-lockfile
 script:
 - ./build.sh
+env:
+- PUBLIC_PATH=./
 after_success:
 - GREN_GITHUB_TOKEN=$GITHUB_TOKEN yarn release
 after_script:
