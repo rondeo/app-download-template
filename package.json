@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "poi --prod",
-    "serve": "poi --serve"
+    "serve": "poi --serve",
+    "stdver": "standard-version -m '[skip ci] chore(release): v%s'"
   },
   "devDependencies": {
     "dotenv": "^8.0.0",
