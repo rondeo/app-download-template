@@ -17,7 +17,7 @@ after_script:
 cache: yarn
 deploy:
 - provider: pages
-  local-dir: docs
+  local-dir: dist
   github-token: $GITHUB_TOKEN
   skip-cleanup: true
   keep-history: true
