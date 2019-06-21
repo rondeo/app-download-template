@@ -4,6 +4,10 @@
   "version": "1.0.4",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/FEmessage/app-download.git",
+    "type": "git"
+  },
   "scripts": {
     "build": "poi --prod",
     "serve": "poi --serve",
